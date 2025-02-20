@@ -87,12 +87,6 @@
         <mxCell id="t1jruCnLY0PKmXfBa4QD-19" value="VPN虚拟局域网" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="450" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="t1jruCnLY0PKmXfBa4QD-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="237" y="866" as="targetPoint" />
-            <mxPoint x="207" y="1045.5" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="t1jruCnLY0PKmXfBa4QD-20" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=10;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="102" y="1009" width="108" height="121" as="geometry" />
         </mxCell>
@@ -169,8 +163,13 @@
         <mxCell id="t1jruCnLY0PKmXfBa4QD-59" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=10;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="245.84000000000003" y="1009" width="170.16" height="121" as="geometry" />
         </mxCell>
-        <mxCell id="t1jruCnLY0PKmXfBa4QD-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t1jruCnLY0PKmXfBa4QD-71" target="t1jruCnLY0PKmXfBa4QD-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="t1jruCnLY0PKmXfBa4QD-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="t1jruCnLY0PKmXfBa4QD-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="156" y="900" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="156" y="890" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="t1jruCnLY0PKmXfBa4QD-71" value="Consul API注册和发现" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios.iSortFindIcon;fillColor=#8BbEff;fillColor2=#135Ec8;strokeColor=#ffffff;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="204" y="818" width="56" height="52" as="geometry" />
@@ -178,11 +177,12 @@
         <mxCell id="t1jruCnLY0PKmXfBa4QD-79" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;opacity=10;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="370" y="792" width="280" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="t1jruCnLY0PKmXfBa4QD-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.912;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t1jruCnLY0PKmXfBa4QD-79" target="t1jruCnLY0PKmXfBa4QD-17">
+        <mxCell id="t1jruCnLY0PKmXfBa4QD-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.912;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="788" as="sourcePoint" />
+            <mxPoint x="440.2560000000001" y="675.3499999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="730" />
-              <mxPoint x="440" y="730" />
+              <mxPoint x="440" y="788" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -197,10 +197,10 @@
             <mxPoint x="350" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t1jruCnLY0PKmXfBa4QD-88" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="t1jruCnLY0PKmXfBa4QD-88" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.221;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t1jruCnLY0PKmXfBa4QD-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="208" y="690" as="sourcePoint" />
-            <mxPoint x="208" y="773" as="targetPoint" />
+            <mxPoint x="208" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t1jruCnLY0PKmXfBa4QD-89" value="API调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t1jruCnLY0PKmXfBa4QD-88">
@@ -208,15 +208,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t1jruCnLY0PKmXfBa4QD-90" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="t1jruCnLY0PKmXfBa4QD-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.581;exitY=0.035;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="236.79000000000002" y="783" as="sourcePoint" />
-            <mxPoint x="237" y="690" as="targetPoint" />
+            <mxPoint x="237.1500000000001" y="781.6400000000001" as="sourcePoint" />
+            <mxPoint x="237" y="677" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t1jruCnLY0PKmXfBa4QD-91" value="数据返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t1jruCnLY0PKmXfBa4QD-90">
           <mxGeometry x="-0.0539" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1jruCnLY0PKmXfBa4QD-94" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1000" as="sourcePoint" />
+            <mxPoint x="200" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
