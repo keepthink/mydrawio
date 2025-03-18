@@ -22,8 +22,11 @@
         <mxCell id="WZD5aC5hvdzo4xhgFHvB-11" value="市场人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="100" y="310" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nZq2yN_HtNo4lVuen5OX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="WZD5aC5hvdzo4xhgFHvB-14" target="WZD5aC5hvdzo4xhgFHvB-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nZq2yN_HtNo4lVuen5OX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="310" as="sourcePoint" />
+            <mxPoint x="225" y="110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="WZD5aC5hvdzo4xhgFHvB-14" value="点击【情报登记】创建情报" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="165" y="310" width="120" height="60" as="geometry" />
